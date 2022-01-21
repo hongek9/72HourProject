@@ -1,0 +1,16 @@
+C:\ElevenFiftyProjects\BlueBadge\SocialNetwork\SocialNetwork.Services\bin\Debug\SocialNetwork.Services.dll.config
+C:\ElevenFiftyProjects\BlueBadge\SocialNetwork\SocialNetwork.Services\bin\Debug\SocialNetwork.Services.dll
+C:\ElevenFiftyProjects\BlueBadge\SocialNetwork\SocialNetwork.Services\bin\Debug\SocialNetwork.Services.pdb
+C:\ElevenFiftyProjects\BlueBadge\SocialNetwork\SocialNetwork.Services\bin\Debug\EntityFramework.dll
+C:\ElevenFiftyProjects\BlueBadge\SocialNetwork\SocialNetwork.Services\bin\Debug\EntityFramework.SqlServer.dll
+C:\ElevenFiftyProjects\BlueBadge\SocialNetwork\SocialNetwork.Services\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\ElevenFiftyProjects\BlueBadge\SocialNetwork\SocialNetwork.Services\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\ElevenFiftyProjects\BlueBadge\SocialNetwork\SocialNetwork.Services\bin\Debug\EntityFramework.xml
+C:\ElevenFiftyProjects\BlueBadge\SocialNetwork\SocialNetwork.Services\bin\Debug\EntityFramework.SqlServer.xml
+C:\ElevenFiftyProjects\BlueBadge\SocialNetwork\SocialNetwork.Services\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\ElevenFiftyProjects\BlueBadge\SocialNetwork\SocialNetwork.Services\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\ElevenFiftyProjects\BlueBadge\SocialNetwork\SocialNetwork.Services\obj\Debug\SocialNetwork.Services.csproj.AssemblyReference.cache
+C:\ElevenFiftyProjects\BlueBadge\SocialNetwork\SocialNetwork.Services\obj\Debug\SocialNetwork.Services.csproj.CoreCompileInputs.cache
+C:\ElevenFiftyProjects\BlueBadge\SocialNetwork\SocialNetwork.Services\obj\Debug\SocialNetwork.Services.csproj.CopyComplete
+C:\ElevenFiftyProjects\BlueBadge\SocialNetwork\SocialNetwork.Services\obj\Debug\SocialNetwork.Services.dll
+C:\ElevenFiftyProjects\BlueBadge\SocialNetwork\SocialNetwork.Services\obj\Debug\SocialNetwork.Services.pdb
