@@ -4,12 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SocialNetwork.Models.PostModels
+namespace SocialNetwork.Models.ReplyModels
 {
-    public class PostEdit
+    public class ReplyEdit
     {
-        public int PostId { get; set; }
-        public string Title { get; set; }
+        public int ReplyId { get; set; }
         public string Text { get; set; }
+
     }
 }

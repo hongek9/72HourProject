@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace SocialNetwork.Models.PostModels
 {
-    class PostDetails
+    public class PostDetails
     {
         public int PostId { get; set; }
         public string Title { get; set; }

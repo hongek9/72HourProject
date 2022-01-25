@@ -4,12 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SocialNetwork.Models.PostModels
+namespace SocialNetwork.Models.CommentModels
 {
-    public class PostEdit
+    public class CommentEdit
     {
-        public int PostId { get; set; }
-        public string Title { get; set; }
+        public int CommentId { get; set; }
         public string Text { get; set; }
     }
 }
