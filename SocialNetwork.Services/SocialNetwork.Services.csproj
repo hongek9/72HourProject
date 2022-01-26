@@ -54,12 +54,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="PostService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SocialNetwork.Data\SocialNetwork.Data.csproj">
+      <Project>{01BBDE3F-E19B-4AB5-B06D-05D259F058E3}</Project>
+      <Name>SocialNetwork.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SocialNetwork.Models\SocialNetwork.Models.csproj">
+      <Project>{2DF8F666-09EC-4945-B9E8-4412F810678B}</Project>
+      <Name>SocialNetwork.Models</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
