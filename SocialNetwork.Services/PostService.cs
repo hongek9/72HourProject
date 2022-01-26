@@ -1,6 +1,7 @@
 ﻿using SocialNetwork.Data;
 using SocialNetwork.Models;
 using SocialNetwork.Models.CommentModels;
+using SocialNetwork.Models.LikeModels;
 using SocialNetwork.Models.PostModels;
 using SocialNetwork.Models.ReplyModels;
 using System;
@@ -56,7 +57,10 @@ namespace SocialNetwork.Services
                             Text = reply.Text
                         }).ToList()
                     }).ToList(),
-                    Likes = e.Likes.ToList()
+                    Likes = e.Likes.Select(like => new LikeDetailsInPost()
+                    {
+                        LikeId = like.LikeId
+                    }).ToList()
                 }); 
 
                 return query.ToArray();
