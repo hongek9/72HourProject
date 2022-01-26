@@ -11,6 +11,7 @@ using System.Web.Http;
 
 namespace SocialNetwork.WebAPI.Controllers
 {
+    [Authorize]
     public class PostController : ApiController
     {
         private PostService CreatePostService()
@@ -29,6 +30,7 @@ namespace SocialNetwork.WebAPI.Controllers
         }
 
         [HttpGet]
+        [Route("api/post/my-posts")]
         public IHttpActionResult GetByAuthorId()
         {
             PostService postService = CreatePostService();
