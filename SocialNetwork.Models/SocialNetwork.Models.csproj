@@ -57,6 +57,7 @@
     <Compile Include="CommentModels\CommentCreate.cs" />
     <Compile Include="CommentModels\CommentDetails.cs" />
     <Compile Include="CommentModels\CommentEdit.cs" />
+    <Compile Include="CommentModels\CommentInPostDetails.cs" />
     <Compile Include="LikeModels\LikeDetails.cs" />
     <Compile Include="PostModels\PostCreate.cs" />
     <Compile Include="PostModels\PostDetails.cs" />
@@ -65,6 +66,7 @@
     <Compile Include="ReplyModels\ReplyCreate.cs" />
     <Compile Include="ReplyModels\ReplyDetails.cs" />
     <Compile Include="ReplyModels\ReplyEdit.cs" />
+    <Compile Include="ReplyModels\ReplyInCommentDetails.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

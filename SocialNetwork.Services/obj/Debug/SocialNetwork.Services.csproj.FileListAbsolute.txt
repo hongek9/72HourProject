@@ -19,3 +19,4 @@ C:\ElevenFiftyProjects\BlueBadge\SocialNetwork\SocialNetwork.Services\bin\Debug\
 C:\ElevenFiftyProjects\BlueBadge\SocialNetwork\SocialNetwork.Services\bin\Debug\SocialNetwork.Data.dll.config
 C:\ElevenFiftyProjects\BlueBadge\SocialNetwork\SocialNetwork.Services\bin\Debug\SocialNetwork.Models.pdb
 C:\ElevenFiftyProjects\BlueBadge\SocialNetwork\SocialNetwork.Services\bin\Debug\SocialNetwork.Models.dll.config
+C:\ElevenFiftyProjects\BlueBadge\SocialNetwork\SocialNetwork.Services\obj\Debug\SocialNetwork.Services.csproj.CopyComplete

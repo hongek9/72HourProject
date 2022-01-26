@@ -11,7 +11,6 @@ C:\ElevenFiftyProjects\BlueBadge\SocialNetwork\SocialNetwork.Models\bin\Debug\Mi
 C:\ElevenFiftyProjects\BlueBadge\SocialNetwork\SocialNetwork.Models\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
 C:\ElevenFiftyProjects\BlueBadge\SocialNetwork\SocialNetwork.Models\obj\Debug\SocialNetwork.Models.csproj.AssemblyReference.cache
 C:\ElevenFiftyProjects\BlueBadge\SocialNetwork\SocialNetwork.Models\obj\Debug\SocialNetwork.Models.csproj.CoreCompileInputs.cache
-C:\ElevenFiftyProjects\BlueBadge\SocialNetwork\SocialNetwork.Models\obj\Debug\SocialNetwork.Models.csproj.CopyComplete
 C:\ElevenFiftyProjects\BlueBadge\SocialNetwork\SocialNetwork.Models\obj\Debug\SocialNetwork.Models.dll
 C:\ElevenFiftyProjects\BlueBadge\SocialNetwork\SocialNetwork.Models\obj\Debug\SocialNetwork.Models.pdb
 C:\ElevenFiftyProjects\BlueBadge\SocialNetwork\SocialNetwork.Models\bin\Debug\SocialNetwork.Data.dll

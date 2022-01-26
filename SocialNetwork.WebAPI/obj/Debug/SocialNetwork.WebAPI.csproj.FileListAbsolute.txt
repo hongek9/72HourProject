@@ -122,3 +122,4 @@ C:\ElevenFiftyProjects\BlueBadge\SocialNetwork\SocialNetwork.WebAPI\bin\System.W
 C:\ElevenFiftyProjects\BlueBadge\SocialNetwork\SocialNetwork.WebAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 C:\ElevenFiftyProjects\BlueBadge\SocialNetwork\SocialNetwork.WebAPI\obj\Debug\SocialNetwork.WebAPI.dll
 C:\ElevenFiftyProjects\BlueBadge\SocialNetwork\SocialNetwork.WebAPI\obj\Debug\SocialNetwork.WebAPI.pdb
+C:\ElevenFiftyProjects\BlueBadge\SocialNetwork\SocialNetwork.WebAPI\obj\Debug\SocialNetwork.WebAPI.csproj.CopyComplete

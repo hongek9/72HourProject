@@ -1,6 +1,8 @@
 ﻿using SocialNetwork.Data;
 using SocialNetwork.Models;
+using SocialNetwork.Models.CommentModels;
 using SocialNetwork.Models.PostModels;
+using SocialNetwork.Models.ReplyModels;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -43,9 +45,19 @@ namespace SocialNetwork.Services
                     PostId = e.PostId,
                     Title = e.Title,
                     Text = e.Text,
-                    Comments = e.Comments.Where(comment => comment.PostId == e.PostId).ToList(),
-                    Likes = e.Likes.Where(like => like.PostId == e.PostId).ToList()
-                });
+                    Comments = e.Comments.Select(comment => new CommentInPostDetails()
+                    {
+                        CommentId = comment.CommentId,
+                        Text = comment.Text,
+                   
+                        Replies = comment.Replies.Select(reply => new ReplyInCommentDetails()
+                        {
+                            ReplyId = reply.ReplyId,
+                            Text = reply.Text
+                        }).ToList()
+                    }).ToList(),
+                    Likes = e.Likes.ToList()
+                }); 
 
                 return query.ToArray();
             }
@@ -60,7 +72,17 @@ namespace SocialNetwork.Services
                     PostId = e.PostId,
                     Title = e.Title,
                     Text = e.Text,
-                    Comments = e.Comments.Where(comment => comment.PostId == e.PostId).ToList(),
+                    Comments = e.Comments.Select(comment => new CommentInPostDetails()
+                    {
+                        CommentId = comment.CommentId,
+                        Text = comment.Text,
+
+                        Replies = comment.Replies.Select(reply => new ReplyInCommentDetails()
+                        {
+                            ReplyId = reply.ReplyId,
+                            Text = reply.Text
+                        }).ToList()
+                    }).ToList(),
                     Likes = e.Likes.Where(like => like.PostId == e.PostId).ToList()
                 });
 

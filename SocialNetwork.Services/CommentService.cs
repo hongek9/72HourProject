@@ -1,5 +1,6 @@
 ﻿using SocialNetwork.Data;
 using SocialNetwork.Models.CommentModels;
+using SocialNetwork.Models.ReplyModels;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -43,7 +44,11 @@ namespace SocialNetwork.Services
                     Text = e.Text,
                     PostId = e.PostId,
                     Post = e.Post,
-                    Replies = e.Replies.Where(reply => reply.CommentId == e.CommentId).ToList()
+                    Replies = e.Replies.Where(reply => reply.CommentId == e.CommentId).Select(reply => new ReplyInCommentDetails()
+                    {
+                        ReplyId = reply.ReplyId,
+                        Text = reply.Text,
+                    }).ToList()
                 });
 
                 return query.ToArray();
@@ -60,7 +65,11 @@ namespace SocialNetwork.Services
                     Text = e.Text,
                     PostId = e.PostId,
                     Post = e.Post,
-                    Replies = e.Replies.Where(reply => reply.CommentId == e.CommentId).ToList()
+                    Replies = e.Replies.Where(reply => reply.CommentId == e.CommentId).Select(reply => new ReplyInCommentDetails()
+                    {
+                        ReplyId = reply.ReplyId,
+                        Text = reply.Text,
+                    }).ToList()
                 });
 
                 return query.ToArray();

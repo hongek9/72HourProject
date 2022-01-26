@@ -1,4 +1,5 @@
 ﻿using SocialNetwork.Data;
+using SocialNetwork.Models.CommentModels;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,7 +13,7 @@ namespace SocialNetwork.Models.PostModels
         public int PostId { get; set; }
         public string Title { get; set; }
         public string Text { get; set; }
-        public List<Comment> Comments { get; set; }
+        public List<CommentInPostDetails> Comments { get; set; }
         public List<Like> Likes { get; set; }
     }
 }
