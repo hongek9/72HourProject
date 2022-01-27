@@ -87,7 +87,9 @@ namespace SocialNetwork.Services
                             Text = reply.Text
                         }).ToList()
                     }).ToList(),
-                    Likes = e.Likes.Where(like => like.PostId == e.PostId).ToList()
+                    Likes = e.Likes.Select(like => new LikeDetailsInPost() { 
+                        LikeId = like.LikeId
+                    }).ToList()
                 });
 
                 return query.ToArray();

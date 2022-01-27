@@ -58,6 +58,7 @@
     <Compile Include="CommentModels\CommentDetails.cs" />
     <Compile Include="CommentModels\CommentEdit.cs" />
     <Compile Include="CommentModels\CommentInPostDetails.cs" />
+    <Compile Include="LikeModels\LikeCreate.cs" />
     <Compile Include="LikeModels\LikeDetails.cs" />
     <Compile Include="LikeModels\LikeDetailsInPost.cs" />
     <Compile Include="PostModels\PostCreate.cs" />
