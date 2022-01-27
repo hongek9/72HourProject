@@ -1,0 +1,19 @@
+﻿using SocialNetwork.Models.CommentModels;
+using SocialNetwork.Models.LikeModels;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace SocialNetwork.Models.PostModels
+{
+    public class PostDetails
+    {
+        public int PostId { get; set; }
+        public string Title { get; set; }
+        public string Text { get; set; }
+        public List<CommentInPostDetails> Comments { get; set; }
+        public List<LikeDetailsInPost> Likes { get; set; }
+    }
+}

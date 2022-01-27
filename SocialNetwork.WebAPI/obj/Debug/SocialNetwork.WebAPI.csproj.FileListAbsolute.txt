@@ -120,6 +120,6 @@ C:\ElevenFiftyProjects\BlueBadge\SocialNetwork\SocialNetwork.WebAPI\bin\Microsof
 C:\ElevenFiftyProjects\BlueBadge\SocialNetwork\SocialNetwork.WebAPI\bin\Microsoft.Owin.Security.OAuth.xml
 C:\ElevenFiftyProjects\BlueBadge\SocialNetwork\SocialNetwork.WebAPI\bin\System.Web.Http.Owin.xml
 C:\ElevenFiftyProjects\BlueBadge\SocialNetwork\SocialNetwork.WebAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\ElevenFiftyProjects\BlueBadge\SocialNetwork\SocialNetwork.WebAPI\obj\Debug\SocialNetwork.WebAPI.csproj.CopyComplete
 C:\ElevenFiftyProjects\BlueBadge\SocialNetwork\SocialNetwork.WebAPI\obj\Debug\SocialNetwork.WebAPI.dll
 C:\ElevenFiftyProjects\BlueBadge\SocialNetwork\SocialNetwork.WebAPI\obj\Debug\SocialNetwork.WebAPI.pdb
+C:\ElevenFiftyProjects\BlueBadge\SocialNetwork\SocialNetwork.WebAPI\obj\Debug\SocialNetwork.WebAPI.csproj.CopyComplete

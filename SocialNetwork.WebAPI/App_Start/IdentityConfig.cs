@@ -1,10 +1,8 @@
-﻿using System.Threading.Tasks;
-using Microsoft.AspNet.Identity;
+﻿using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.EntityFramework;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin;
 using SocialNetwork.Data;
-using SocialNetwork.WebAPI.Models;
 
 namespace SocialNetwork.WebAPI
 {

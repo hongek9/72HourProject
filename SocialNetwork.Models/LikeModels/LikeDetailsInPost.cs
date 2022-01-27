@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SocialNetwork.Services
+namespace SocialNetwork.Models.LikeModels
 {
-    public class Class1
+    public class LikeDetailsInPost
     {
+        public int LikeId { get; set; }
     }
 }
